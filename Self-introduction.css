@@ -1,7 +1,17 @@
+@font-face {
+  font-family: 'LeferiPoint-WhiteA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   scroll-behavior: smooth;
  }
 
+ body {
+	font-family: 'LeferiPoint-WhiteA';
+}
 
  .nav {
   position: fixed;

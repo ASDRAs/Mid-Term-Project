@@ -4,14 +4,6 @@
   font-weight: normal;
   font-style: normal;
 }
-@keyframes fadein {
-  from {
-      opacity:0;
-  }
-  to {
-      opacity:1;}
-}
-
 
  body {
 
@@ -52,7 +44,17 @@
 
  .cont{
   font-size:20px;
+  animation: fadein 0.7s;
  }
+
+ @keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
 
  .nav-item:hover:not(.active){
   background-color: darksalmon;
@@ -77,8 +79,4 @@ table{
   font-size: 130px;
   margin-left:40px; 
   margin-right:40px;
-}
- <!--CSS-->
-.background { 
-    animation: fadein 0.7s;
 }

@@ -50,6 +50,15 @@
   background-color: darksalmon;
 }
 
+.pinf_cont{
+  font-size: 20px;
+  text-align:left;
+  display: flex;
+  align-items: center;
+  margin-left:50px;
+  line-height: 2.5em;
+}
+
  <!--CSS-->
 .background { 
     animation: fadein 0.7s;

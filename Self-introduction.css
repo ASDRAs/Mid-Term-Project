@@ -4,55 +4,53 @@
   font-weight: normal;
   font-style: normal;
 }
-
-html {
-  scroll-behavior: smooth;
- }
-
- body {
-	font-family: 'LeferiPoint-WhiteA';
-}
-
- .nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-
-  text-align: center;
-  height:50px;
-  align-items: center;
- }
-
- .name{
-  color: black;
-  text-align: center;
-  font-size: 50px;
-  margin-bottom:10px;
- }
-
-
- .flex{
-   display:flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 20px;
- } 
-
- .nav-item{
-  margin-right:50px;
-  margin-left:50px;
- }
- <!--CSS-->
-.background { 
-    animation: fadein 0.7s;
-}
-
 @keyframes fadein {
   from {
       opacity:0;
   }
   to {
-      opacity:1;
-  }
+      opacity:1;}
+}
+
+ body {
+  padding-top: 100px;
+	font-family: 'LeferiPoint-WhiteA';
+  text-align: center;
+  background-color:antiquewhite;
+}
+
+ .nav {
+  display: block;
+  text-align: center;
+  color:antiquewhite;
+  background-color:darksalmon;
+  font-weight: bold;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height:80px;
+ }
+ .nav-item{
+  margin-right:50px;
+  margin-left:50px;
+  padding: 20px 50px;
+ }
+
+ .name{
+  text-align: center;
+  font-size: 50px;
+  margin-top:10px;
+  margin-bottom:10px;
+ }
+
+
+ .nav-item:hover:not(.active){
+  background-color: darksalmon;
+}
+
+ <!--CSS-->
+.background { 
+    animation: fadein 0.7s;
 }

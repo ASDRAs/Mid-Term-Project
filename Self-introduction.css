@@ -73,7 +73,11 @@ table{
   margin-left:auto; 
     margin-right:auto;
 }
-
+.Icon{
+  font-size: 130px;
+  margin-left:40px; 
+  margin-right:40px;
+}
  <!--CSS-->
 .background { 
     animation: fadein 0.7s;

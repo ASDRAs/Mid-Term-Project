@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+
+ .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+  height:50px;
+  align-items: center;
+ }
+
+ .name{
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom:10px;
+ }
+
+
+ .flex{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+ } 
+
+ .nav-item{
+  margin-right:50px;
+  margin-left:50px;
+ }
+ <!--CSS-->
+.background { 
+    animation: fadein 0.7s;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}

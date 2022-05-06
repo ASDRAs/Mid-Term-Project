@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'LeferiPoint-WhiteA';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteA.woff') format('woff');
@@ -19,6 +20,7 @@
   text-align: center;
   color:antiquewhite;
   background-color:darksalmon;
+  border-bottom: 5px solid saddlebrown;
 
 
   position: fixed;
@@ -26,9 +28,11 @@
   left: 0;
   right: 0;
   height:80px;
+  z-index: 5;
  }
 
  .nav-item{
+   cursor:pointer;
    color:darksalmon;
   margin-right:50px;
   margin-left:50px;
@@ -59,6 +63,7 @@
  .nav-item:hover:not(.active){
   background-color: darksalmon;
   color:antiquewhite;
+  border-bottom: 5px solid saddlebrown;
 }
 
 .pinf_cont{
@@ -79,4 +84,9 @@ table{
   font-size: 130px;
   margin-left:40px; 
   margin-right:40px;
+  transition: color, 0.3s;
+}
+
+.Icon:hover{
+  color:salmon;
 }
